@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aimsh_sample_plugin" # distribution name need not match the module name
+version = "0.0.1"
+# description = "Example package description"
+# authors = [ {name = "Satya Nadella", email = "satya@example.com"} ]
+# readme = "README.md"
+
+[tool.setuptools.package-data]
+aimsh_sample_plugin = ["*.md"] 
